@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\Microphone.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\Sound.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\SoundCallback.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\SoundData.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\SoundEffect.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\SoundEffectChain.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\SoundEffectParameterCollection.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\SoundEngine.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\SoundSource.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\SoundTarget.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\WAVReader.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\CompositeSound.cpp" />
+    <ClCompile Include="..\..\src\Draw8.Audio\CompositeSoundSource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\ISound.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\ISoundEffectProcessor.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\ISoundEmitter.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\ISoundSource.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\Microphone.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\Sound.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\SoundCallback.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\SoundData.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\SoundEffect.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\SoundEffectChain.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\SoundEffectParameterCollection.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\SoundEngine.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\SoundSource.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\SoundTarget.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\WAVReader.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\AudioTools.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\CompositeSound.h" />
+    <ClInclude Include="..\..\src\Draw8.Audio\CompositeSoundSource.h" />
+    <ClInclude Include="..\..\src\Draw8\Tools.h" />
+  </ItemGroup>
+</Project>

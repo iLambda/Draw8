@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>5e68ede9-5169-4b1e-bf3d-c499cde6a120</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\src\Draw8\Vector3.cpp" />
+    <ClCompile Include="..\..\src\Draw8\Vector2.cpp" />
+    <ClCompile Include="..\..\src\Draw8\IDevice.cpp" />
+    <ClCompile Include="..\..\src\Draw8\Complex.cpp" />
+    <ClCompile Include="..\..\src\Draw8\Maths.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\..\src\Draw8\Vector2.h" />
+    <ClInclude Include="..\..\src\Draw8\Vector3.h" />
+    <ClInclude Include="..\..\src\Draw8\Tools.h" />
+    <ClInclude Include="..\..\src\Draw8\IDevice.h" />
+    <ClInclude Include="..\..\src\Draw8\Complex.h" />
+    <ClInclude Include="..\..\src\Draw8\Maths.h" />
+  </ItemGroup>
+</Project>
